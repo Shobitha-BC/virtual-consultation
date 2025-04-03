@@ -113,7 +113,7 @@ const AdminContextProvider = (props) => {
 
     const value = {
         aToken, setAToken,
-        doctors,
+        backendUrl,doctors,
         getAllDoctors,
         changeAvailability,
         appointments,
