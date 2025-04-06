@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-[#ADADAD]'>
-      <img onClick={() => navigate('/')} className='w-44 cursor-pointer' src={assets.logo} alt="" />
+      <img onClick={() => navigate('/')} className='w-20 cursor-pointer' src="https://sdmntpreastus2.oaiusercontent.com/files/00000000-15cc-51f6-b6db-cea3c24338b0/raw?se=2025-04-06T15%3A06%3A52Z&sp=r&sv=2024-08-04&sr=b&scid=4c673ce6-5a42-5d71-a969-bd5d7cac4f03&skoid=2f36945c-3adc-4614-ac2b-eced8f672c58&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-06T07%3A22%3A36Z&ske=2025-04-07T07%3A22%3A36Z&sks=b&skv=2024-08-04&sig=go8ebSYKRW/pok%2BSbMoFRE/e%2BOsT3OyDk/IKmBcHPfM%3D" alt="" />
       <ul className='md:flex items-start gap-5 font-medium hidden'>
         <NavLink to='/' >
           <li className='py-1'>HOME</li>
